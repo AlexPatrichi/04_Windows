@@ -132,7 +132,7 @@ Shows the applications consuming the most system memory during the investigation
 Firefox was identified as the primary memory consumer, followed by Visual Studio Code and Windows background services.
 
 <div align="center">
-  <img src="../03_Images/Lab01_Task Manager (Processes).png" alt="Task Manager (Processes)" width="400"/>
+  <img src="../04_Images/Lab01_Task Manager (Processes).png" alt="Task Manager (Processes)" width="400"/>
 </div>
 
 ---
@@ -141,7 +141,7 @@ Firefox was identified as the primary memory consumer, followed by Visual Studio
 Shows the overall memory usage before optimization.
 
 <div align="center">
-  <img src="../03_Images/Lab01_Task Manager (Performance).png" alt="Task Manager (Performance)" width="400"/>
+  <img src="../04_Images/Lab01_Task Manager (Performance).png" alt="Task Manager (Performance)" width="400"/>
 </div>
 
 ---
@@ -150,7 +150,7 @@ Shows the overall memory usage before optimization.
 Shows the installed memory configuration before the upgrade.
 
 <div align="center">
-  <img src="../03_Images/Lab01_CPU-Z_(SPD).png" alt="CPU-Z (Memory)" width="400"/>
+  <img src="../04_Images/Lab01_CPU-Z_(SPD).png" alt="CPU-Z (Memory)" width="400"/>
 </div>
 
 ---
@@ -159,7 +159,7 @@ Shows the installed memory configuration before the upgrade.
 Identifies the installed memory module used to purchase a compatible upgrade.
 
 <div align="center">
-  <img src="../03_Images/Lab01_CPU-Z_(SPD).png" alt="CPU-Z (SPD)" width="400"/>
+  <img src="../04_Images/Lab01_CPU-Z_(SPD).png" alt="CPU-Z (SPD)" width="400"/>
 </div>
 
 ---
@@ -170,5 +170,5 @@ Shows the memory configuration after the RAM upgrade.
 The system now detects **16 GB DDR4 at 2667 MT/s**, with **both memory slots populated**. Memory usage during normal operation is approximately **54%**, providing significantly more available memory for multitasking compared with the original 8 GB configuration.
 
 <div align="center">
-  <img src="../03_Images/Lab01_Task Manager (Memory After Upgrade).png" alt="Task Manager (Performance)" width="400"/>
+  <img src="../04_Images/Lab01_Task Manager (Memory After Upgrade).png" alt="Task Manager (Performance)" width="400"/>
 </div>
