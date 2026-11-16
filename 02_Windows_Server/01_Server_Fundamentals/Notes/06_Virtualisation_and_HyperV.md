@@ -48,18 +48,6 @@ It enables administrators to run multiple operating systems, such as Windows Ser
 - **Testing:** Administrators can experiment without directly modifying production servers.
 - **Centralised Management:** Multiple virtual machines can be administered from one platform.
 
-## Hyper-V in Our University Lab
-
-During the Network Applications seminar, the university's Learning on Demand (LOD) environment provides access to Hyper-V Manager.
-
-The Hyper-V host named **MIS** contains several virtual machines, including:
-
-- Windows Server 2019
-- Windows Server 2025
-- Ubuntu 24.04
-
-These virtual machines allow us to practise Windows and Linux server administration.
-
 ## Summary
 
 Hyper-V provides a virtualised environment for running and managing multiple operating systems on shared hardware. Understanding hosts, guests, hypervisors and virtual machines is essential for practical server administration.
