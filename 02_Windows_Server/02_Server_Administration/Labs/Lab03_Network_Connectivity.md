@@ -4,7 +4,7 @@
 
 ## 🎯 Objective
 
-Learn to identify network configuration, test connectivity between computers and verify DNS resolution using Command Prompt (CMD) in Windows Server.
+Learn to identify network configuration, test connectivity between computers using Command Prompt (CMD) in Windows Server.
 
 ## 🧪 Lab Implementation
 
