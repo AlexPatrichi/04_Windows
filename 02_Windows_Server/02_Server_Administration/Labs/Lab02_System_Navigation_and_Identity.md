@@ -64,6 +64,8 @@ Before performing administrative tasks, it is important to identify the current 
    - The `whoami` command displays the identity of the currently logged-in user.
    - The output typically includes the computer or domain name followed by the username.
 
+⚠️ Different users have different permissions. 
+
 2. **Computer Name Command** `hostname` — Which computer am I working on?
    - The `hostname` command displays the name of the computer.
    - It helps administrators identify the system they are accessing, particularly in environments with multiple servers.
