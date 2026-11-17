@@ -22,7 +22,53 @@ mkdir C:\PracticeLab\Week1
 
 ![CMD Create Directory](../Images/Lab04_CMD_Create_Directory.png)
 
-### Step 2: View Directory Permissions
+### Step 2: Navigate into the Directory and Create a Test File
+
+1. **Change Directory Command** `cd` — Navigate into the practice folder.
+```cmd
+cd C:\PracticeLab\Week1
+```
+
+Verify the current location:
+```cmd
+cd
+```
+
+**Output:**
+```text
+C:\PracticeLab\Week1
+```
+
+2. **Echo Command** `echo` — Create a file with content.
+   - The `echo` command displays text.
+   - The `>` redirection operator sends the output into a file instead of displaying it on the screen.
+
+```cmd
+echo This is a test > testfile.txt
+```
+
+This creates a file named `testfile.txt` containing the text "This is a test".
+
+3. **Type Command** `type` — What is inside the file?
+   - The `type` command displays the contents of a text file without opening a text editor.
+
+```cmd
+type testfile.txt
+```
+
+**Output:**
+
+```text
+This is a test
+```
+
+4. Verify that the file exists using the `dir` command.
+
+![CMD Create and Read Test File](../Images/Lab04_CMD_Create_Test_File.png)
+
+⚠️ The `>` operator overwrites existing file contents. Use `>>` to append content without replacing existing text.
+
+### Step 3: View Directory Permissions
 
 1. Open File Explorer.
 2. Navigate to `C:\PracticeLab`.
@@ -44,7 +90,7 @@ mkdir C:\PracticeLab\Week1
 | Read | Allows viewing file contents. |
 | Write | Allows creating files and writing data. |
 
-### Step 3: Understand Permission Inheritance
+### Step 4: Understand Permission Inheritance
 
 Permission inheritance allows files and subdirectories to automatically receive inheritable permissions from their parent directory.
 
