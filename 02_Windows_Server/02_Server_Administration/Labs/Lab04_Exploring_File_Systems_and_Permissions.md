@@ -70,6 +70,7 @@ This is a test
 
 ### Step 3: View Directory Permissions
 
+#### 1. Check folder permissions (GUI method)
 1. Open File Explorer.
 2. Navigate to `C:\PracticeLab`.
 3. Right-click the `Week1` folder.
@@ -89,6 +90,44 @@ This is a test
 | List Folder Contents | Allows viewing files and folders inside a directory. |
 | Read | Allows viewing file contents. |
 | Write | Allows creating files and writing data. |
+
+#### Check permissions (Command line method)
+
+**Integrity Control Access Control List Command** `icacls` — Who has access to this directory?
+
+- The `icacls` command displays and modifies NTFS file and directory permissions.
+- It provides a quick way to check permissions without using the graphical interface.
+- It is particularly useful for scripting and automating administrative tasks.
+
+```cmd
+icacls C:\PracticeLab\Week1
+```
+
+![CMD Directory Permissions](../Images/Lab04_CMD_Directory_Permissions.png)
+
+**Understanding the output:**
+
+| Symbol | Meaning |
+|---|---|
+| (F) | Full Control |
+| (M) | Modify |
+| (R) | Read |
+| (RX) | Read and Execute |
+| (W) | Write |
+| (AD) | Add Subdirectories |
+| (WD) | Write Data / Add Files |
+| (I) | Inherited Permission |
+| (OI) | Object Inherit — files inherit this permission |
+| (CI) | Container Inherit — subdirectories inherit this permission |
+| (IO) | Inherit Only — applies to inheriting objects, not the current directory |
+
+**Observations:**
+- Administrators and SYSTEM have Full Control.
+- Users have Read and Execute permissions, along with additional permissions to create files and subdirectories.
+- CREATOR OWNER has an inherit-only Full Control entry.
+- Entries marked with `(I)` are inherited from a parent directory.
+
+⚠️ Running `icacls` without additional modification options displays existing permissions without changing them.
 
 ### Step 4: Understand Permission Inheritance
 
